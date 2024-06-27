@@ -1,0 +1,96 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.formContent{
+    width: 80%;
+    margin: 100px auto;
+    font-family:sans-serif ;
+}
+.formContent h1{
+    font-size: 30px;
+    margin-bottom: 30px;
+}
+
+.formContent input , textarea{
+    width: 90%;
+    padding:10px 20px;
+    margin: 8px 0;
+    border: 1px solid black;
+    border-radius: 7px;
+}
+
+.btn{
+    padding: 10px 20px;
+    margin: 8px 0;
+    border: 1px solid rgb(0, 119, 255);
+    border-radius: 7px;
+    color: blue;
+    background-color: white;
+}
+
+.btn:hover{
+    background-color: rgb(53, 53, 192);
+    color: white;
+}
+
+.dispy{
+
+    width: 80%;
+    margin:auto; 
+    margin-bottom:70px ;
+    text-align: center;
+
+}
+
+.dispy table {
+    margin: auto;
+}
+.dispy table th {
+    padding:10px 30px  ;
+    border-bottom: 1px solid black ;
+}
+#demo tr {
+    background-color: rgb(220, 245, 244);
+}
+.search{
+    margin-bottom:10px ;
+}
+.search label{
+    padding:20px ;
+    font-size: 20px;
+}
+.search  input {
+    width:50%;
+    padding:10px 15px;
+}
+
+.btn_2{
+    padding: 10px 20px;
+    margin: 8px 0;
+    border: 1px solid rgb(255, 0, 0);
+    border-radius: 7px;
+    color: rgb(255, 0, 34);
+    background-color: white;
+}
+
+.btn_2:hover{
+    background-color: rgb(255, 0, 0);
+    color: white;
+}
+
+.btn_3{
+    padding: 10px 20px;
+    margin: 8px 0;
+    border: 1px solid rgb(220, 143, 28);
+    border-radius: 7px;
+    color: rgb(255, 213, 0);
+    background-color: white;
+}
+
+.btn_3:hover{
+    background-color: rgb(255, 225, 0);
+    color: white;
+}

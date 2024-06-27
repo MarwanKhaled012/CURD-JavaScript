@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/css.css" />
+    <title>home</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="formContent">
+        <h1>Project Mange System</h1>
+        <label for=""> Product Name </label><br />
+        <input size="100" type="text" id="ProductName" /><br />
+
+        <label for=""> Product price </label><br />
+        <input type="number" id="ProductPrice" /><br />
+
+        <label for=""> Product category </label><br />
+        <input size="100" type="text" id="ProductCategory" /><br />
+
+        <label for=""> Product Description </label><br />
+        <textarea id="ProductDescription"></textarea><br />
+        <button type="submit" onclick="test()" class="btn">ADD Product</button>
+      </div>
+    </div>
+    <div class="dispy">
+      <div class="search">
+        <label>Search ::</label>
+        <input oninput="search(this.value)" type="text" placeholder="Search" id="search">
+      </div>
+      <table >
+        <thead>
+          <th>index</th>
+          <th>Name</th>
+          <th>Price</th>
+          <th>Categoric</th>
+          <th>Description</th>
+          <th>Delete</th>
+          <th>Add</th>
+        </thead>
+        <tbody id="demo">
+        </tbody>
+      </table>
+    </div>
+    <script src="./js/index.js"></script>
+  </body>
+</html>
